@@ -23,22 +23,36 @@
 ### gdb:
 > The GNU Debugger (GDB) is a portable debugger that runs on many Unix-like systems and works for many programming languages, including Ada, Assembly, C, C++, D, Fortran, Haskell, Go, Objective-C, OpenCL C, Modula-2, Pascal, Rust,[2] and partially others.
 
-Install (Basic): `sudo apt install gdb`  
-Install (Suggested): `sudo apt install gdb gdb-doc gdbserver libc-dbg` (This is included in ####v1.sh)  
-
+Install: `sudo apt install gdb gdb-doc gdbserver libc-dbg`  
 
 ### pwntools:
 > pwntools is a CTF framework and exploit development library. Written in Python, it is designed for rapid prototyping and development, and intended to make exploit writing as simple as possible.  
 
 Documentation: [https://docs.pwntools.com/en/stable/](https://docs.pwntools.com/en/stable/)  
-Install: `sudo apt install python3-pwntools` (This is included in ####v1.sh)  
-
+Install: `sudo apt install python3-pwntools`  
 
 ### pyftpdlib
 > Python FTP server library provides a high-level portable interface to easily write very efficient, scalable and asynchronous FTP servers with Python. It is the most complete RFC-959 FTP server implementation available for the Python programming language.
 
-Documentation: [https://pypi.org/project/pyftpdlib/](https://pypi.org/project/pyftpdlib/)
-Install: `apt install python3-pyftpdlib`
+Documentation: [https://pypi.org/project/pyftpdlib/](https://pypi.org/project/pyftpdlib/)  
+Install: `apt install python3-pyftpdlib`  
+
+### jq
+> jq is a lightweight and flexible command-line processor for JSON data in Linux, often described as "sed for JSON".
+
+Project: [https://github.com/jqlang/jq](https://github.com/jqlang/jq)  
+Install: `apt install jq`  
+
+### ncat
+> ncat.
+
+Project: ncat
+Install: ncat  
 
 
-### Something Else
+### rlwrap
+> rlwrap.
+
+Project: ncat
+Install: ncat  
+
