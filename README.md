@@ -1,26 +1,16 @@
 # Kali-Mods
 
 ## General Packages:
-python3-pip
-exiftool
-binwalk
 
-
-## CTF Packages:
-
-|Package:|Kali:|Kali Prep Script:|
-|:------ |:---:|:---------------:|
-|gdb     | --- | v0.6  |
-|pwntools| --- | v0.6  |
-
-
-## OSCP Packages:
-
-
-
-
-
-
+|Package: |Script:|Description:|
+|:------- |:-----:|:---------- |
+|gdb      | v0.6  |GNU Debugger|
+|pwntools | v0.6  |Python Exploit Dev Toolkit|
+|pyftpdlib| v0.6  |Python FTP server library|
+|jq       | v0.6  |Carving JSON Data from the terminal|
+|ncat     | v0.6  |Enhanced `nc`|
+|rlwrap   | v0.6  | |
+|seclists | v0.6  | |
 
 
 
@@ -42,5 +32,13 @@ Install (Suggested): `sudo apt install gdb gdb-doc gdbserver libc-dbg` (This is 
 
 Documentation: [https://docs.pwntools.com/en/stable/](https://docs.pwntools.com/en/stable/)  
 Install: `sudo apt install python3-pwntools` (This is included in ####v1.sh)  
+
+
+### pyftpdlib
+> Python FTP server library provides a high-level portable interface to easily write very efficient, scalable and asynchronous FTP servers with Python. It is the most complete RFC-959 FTP server implementation available for the Python programming language.
+
+Documentation: [https://pypi.org/project/pyftpdlib/](https://pypi.org/project/pyftpdlib/)
+Install: `apt install python3-pyftpdlib`
+
 
 ### Something Else
