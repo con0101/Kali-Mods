@@ -1,12 +1,34 @@
 # Kali-Mods
 
+## General Packages:
+python3-pip
+exiftool
+binwalk
 
-## Packages:
+
+## CTF Packages:
 
 |Package:|Kali:|Kali Prep Script:|
 |:------ |:---:|:---------------:|
 |gdb     | --- | v0.6  |
 |pwntools| --- | v0.6  |
+
+
+## OSCP Packages:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### gdb:
 > The GNU Debugger (GDB) is a portable debugger that runs on many Unix-like systems and works for many programming languages, including Ada, Assembly, C, C++, D, Fortran, Haskell, Go, Objective-C, OpenCL C, Modula-2, Pascal, Rust,[2] and partially others.
