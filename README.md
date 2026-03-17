@@ -15,6 +15,7 @@ This repository is used to customize Kali Linux to my preferred configuration an
 |rlwrap   | v0.6  |readline wrapper|
 |seclists | v0.6  |Collection of Wordlists|
 
+## Tweaks:
 
 
 
@@ -62,3 +63,14 @@ Install: `apt install rlwrap`
 
 Project: [https://github.com/danielmiessler/SecLists](https://github.com/danielmiessler/SecLists)  
 Install: `apt install seclists`
+
+
+
+## Tweaks:
+```
+sudo -u kali rm -f /home/kali/.vimrc
+sudo -u kali echo "filetype plugin on" >> /home/kali/.vimrc
+sudo -u kali echo "syntax on" >> /home/kali/.vimrc
+sudo -u kali echo "set number" >> /home/kali/.vimrc
+sudo -u kali echo "set list" >> /home/kali/.vimrc
+```
