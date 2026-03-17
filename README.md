@@ -10,7 +10,7 @@
 |jq       | v0.6  |Carving JSON Data from the terminal|
 |ncat     | v0.6  |Enhanced `nc`|
 |rlwrap   | v0.6  |readline wrapper|
-|seclists | v0.6  | |
+|seclists | v0.6  |Collection of Wordlists|
 
 
 
@@ -54,3 +54,7 @@ Install: `apt install ncat`
 
 Install: `apt install rlwrap`  
 
+### seclists
+> SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.
+
+Install: `apt install seclists`
