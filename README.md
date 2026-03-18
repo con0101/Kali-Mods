@@ -36,3 +36,6 @@ sudo -u kali echo "syntax on" >> /home/kali/.vimrc
 sudo -u kali echo "set number" >> /home/kali/.vimrc
 sudo -u kali echo "set list" >> /home/kali/.vimrc
 ```
+
+### Add `lll` alias to show hidden files:
+`echo "alias lll='ls -lah'" >> ~/.zshrc`
