@@ -15,7 +15,15 @@ This repository is used to customize Kali Linux to my preferred configuration an
 |rlwrap   | v0.6  |readline wrapper             |`apt install rlwrap`                        ||
 |seclists | v0.6  |Collection of Wordlists      |`apt install seclists`                      |[Project](https://github.com/danielmiessler/SecLists)|
 
+## Local Copies of Common Tools/Utilities:
+
+### Privilege Escalation Awesome Scripts SUITE new generation (PEASS-ng)
+Documentation: [https://swisskyrepo.github.io/PayloadsAllTheThings/](https://swisskyrepo.github.io/PayloadsAllTheThings/)  
+`git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git /usr/share/PayloadsAllTheThings/`
+
 ## Tweaks:
+
+### VIM Settings:
 ```
 sudo -u kali rm -f /home/kali/.vimrc
 sudo -u kali echo "filetype plugin on" >> /home/kali/.vimrc
