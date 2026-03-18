@@ -20,6 +20,7 @@ fi
 
 echo
 echo " ##### Installing Standard Packages #####"
+apt update
 echo
 echo "##### gdb #####"
 apt install -y gdb gdb-doc gdbserver libc-dbg
