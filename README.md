@@ -29,7 +29,7 @@ Project: [https://github.com/samratashok/nishang](https://github.com/samratashok
 ## Tweaks:
 
 ### VIM Settings:
-```
+```bash
 sudo -u kali rm -f /home/kali/.vimrc
 sudo -u kali echo "filetype plugin on" >> /home/kali/.vimrc
 sudo -u kali echo "syntax on" >> /home/kali/.vimrc
