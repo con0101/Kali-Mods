@@ -42,3 +42,7 @@ sudo -u kali echo "set list" >> /home/kali/.vimrc
 sudo -u kali sed -i "s/^alias ll=.*/alias ll='ls -lah'/" /home/kali/.zshrc
 sudo -u kali sed -i "s/^alias ll=.*/alias ll='ls -lah'/" /home/kali/.bashrc
 ```
+
+## Considerations:
+impacket  
+
