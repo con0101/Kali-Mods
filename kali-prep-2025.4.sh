@@ -41,7 +41,15 @@ apt install -y rlwrap
 echo "------> seclists: "
 apt install -y seclists
 
-echo "--> Adding Tweaks..."
+echo "--> Local Copies of Common Tools/Utilities..."
+
+echo "------> Privilege Escalation Awesome Scripts SUITE new generation (PEASS-ng)"
+git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git /usr/share/PayloadsAllTheThings/
+
+echo "------> Nishang (Offensive Powershell Framework)"
+git clone https://github.com/samratashok/nishang.git /usr/share/nishang/
+
+echo "--> Tweaks..."
 
 echo "------> VIM Settings..."
 sudo -u kali rm -f /home/kali/.vimrc
@@ -51,7 +59,7 @@ sudo -u kali echo "set number" >> /home/kali/.vimrc
 sudo -u kali echo "set list" >> /home/kali/.vimrc
 
 echo "------> Modify ll alias to show hidden files in zsh and bash..."
-sed -i "s/^alias ll=.*/alias ll='ls -lah'/" ~/.zshrc
-sed -i "s/^alias ll=.*/alias ll='ls -lah'/" ~/.bashrc
+sudo -u kali sed -i "s/^alias ll=.*/alias ll='ls -lah'/" ~/.zshrc
+sudo -u kali sed -i "s/^alias ll=.*/alias ll='ls -lah'/" ~/.bashrc
 
 echo "Script Complete"
