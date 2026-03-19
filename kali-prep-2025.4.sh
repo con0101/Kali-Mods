@@ -18,8 +18,8 @@ fi
 
 echo "--> Updating APT..."
 apt update
-echo "--> Upgrading Kali..."
-apt upgrade -y
+#echo "--> Upgrading Kali..."
+#apt upgrade -y
 
 echo "--> Installing General Packages..."
 echo "------> gdb: "
