@@ -59,7 +59,7 @@ sudo -u kali echo "set number" >> /home/kali/.vimrc
 sudo -u kali echo "set list" >> /home/kali/.vimrc
 
 echo "------> Modify ll alias to show hidden files in zsh and bash..."
-sudo -u kali sed -i "s/^alias ll=.*/alias ll='ls -lah'/" ~/.zshrc
-sudo -u kali sed -i "s/^alias ll=.*/alias ll='ls -lah'/" ~/.bashrc
+sudo -u kali sed -i "s/^alias ll=.*/alias ll='ls -lah'/" /home/kali/.zshrc
+sudo -u kali sed -i "s/^alias ll=.*/alias ll='ls -lah'/" /home/kali/.bashrc
 
 echo "Script Complete"
