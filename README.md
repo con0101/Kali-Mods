@@ -39,6 +39,6 @@ sudo -u kali echo "set list" >> /home/kali/.vimrc
 
 ### Modify `ll` alias to show hidden files in zsh and bash:
 ```bash
-sed -i "s/^alias ll=.*/alias ll='ls -lah'/" ~/.zshrc
-sed -i "s/^alias ll=.*/alias ll='ls -lah'/" ~/.bashrc
+sudo -u kali sed -i "s/^alias ll=.*/alias ll='ls -lah'/" ~/.zshrc
+sudo -u kali sed -i "s/^alias ll=.*/alias ll='ls -lah'/" ~/.bashrc
 ```
