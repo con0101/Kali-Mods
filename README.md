@@ -4,17 +4,17 @@ This repository is used to customize Kali Linux to my preferred configuration an
 
 ## General Packages:
 
-|Package: |Script:|Description:|Install:|Links:|
-|:------- |:-----:|:---------- |:--------|:------- |
-|gdb      | v0.6  |GNU Debugger                 |`apt install gdb gdb-doc gdbserver libc-dbg`||
-|ghidra   | v0.6  |Reverse Engineering Framework|`apt install ghidra`                        ||
-|CyberChef| v0.6  |The Cyber Swiss Army Knife   |`apt install cyberchef`                     |[Project](https://github.com/gchq/CyberChef)|
-|pwntools | v0.6  |Python Exploit Dev Toolkit   |`apt install python3-pwntools`              |[Docs](https://docs.pwntools.com/en/stable/)|
-|pyftpdlib| v0.6  |Python FTP server library    |`apt install python3-pyftpdlib`             |[Docs](https://pypi.org/project/pyftpdlib/)|
-|jq       | v0.6  |Carving JSON at the terminal |`apt install jq`                            |[Project](https://github.com/jqlang/jq)|
-|ncat     | v0.6  |Enhanced `nc`                |`apt install ncat`                          ||
-|rlwrap   | v0.6  |readline wrapper             |`apt install rlwrap`                        ||
-|seclists | v0.6  |Collection of Wordlists      |`apt install seclists`                      |[Project](https://github.com/danielmiessler/SecLists)|
+|Package: |Script:  |Description:|Install:|Links:|
+|:------- |:-------:|:---------- |:--------|:------- |
+|gdb      | 2025.4 |GNU Debugger                 |`apt install gdb gdb-doc gdbserver libc-dbg`||
+|ghidra   | 2025.4 |Reverse Engineering Framework|`apt install ghidra`                        ||
+|CyberChef| 2025.4 |The Cyber Swiss Army Knife   |`apt install cyberchef`                     |[Project](https://github.com/gchq/CyberChef)|
+|pwntools | 2025.4 |Python Exploit Dev Toolkit   |`apt install python3-pwntools`              |[Docs](https://docs.pwntools.com/en/stable/)|
+|pyftpdlib| 2025.4 |Python FTP server library    |`apt install python3-pyftpdlib`             |[Docs](https://pypi.org/project/pyftpdlib/)|
+|jq       | 2025.4 |Carving JSON at the terminal |`apt install jq`                            |[Project](https://github.com/jqlang/jq)|
+|ncat     | 2025.4 |Enhanced `nc`                |`apt install ncat`                          ||
+|rlwrap   | 2025.4 |readline wrapper             |`apt install rlwrap`                        ||
+|seclists | 2025.4 |Collection of Wordlists      |`apt install seclists`                      |[Project](https://github.com/danielmiessler/SecLists)|
 
 ## Local Copies of Common Tools/Utilities:
 
