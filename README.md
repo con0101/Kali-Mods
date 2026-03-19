@@ -17,7 +17,7 @@ This repository is used to customize Kali Linux to my preferred configuration an
 |seclists | 2025.4 |Collection of Wordlists                        |`apt install seclists`                      |[Project](https://github.com/danielmiessler/SecLists)      |
 |peass-ng | 2025.4 |Privilege Escalation Awesome Scripts SUITE     |`apt install peass`                         |[Project](https://github.com/peass-ng/PEASS-ng)            |
 |netexec  | 2025.4 |Network Service Exploitation Tool              |`apt install netexec`                       |[Project](https://github.com/Pennyw0rth/NetExec)           |
-|exiftool | 2025.4 |Read and write meta info in files              |`sudo apt install libimage-exiftool-perl`   |[Project](https://exiftool.org/)                           |
+|exiftool | 2025.4 |Read and write meta info in files              |`apt install libimage-exiftool-perl`        |[Project](https://exiftool.org/)                           |
 |pv       | 2025.4 |Monitor the progress of data through a pipe    |`apt install pv`                            |[Project](https://ivarch.com/p/pv)                         |
 |xxd      | 2025.4 |Display HEX/Binary data at the terminal        |`apt install xxd`                           |[Info](https://linuxhandbook.com/xxd-command/)             |
 |gobuster | 2025.4 |Brute Force Dir/File, DNS, Virtual Host, & More|`apt install gobuster`                      |[Project](https://github.com/OJ/gobuster)                  |
