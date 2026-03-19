@@ -15,10 +15,11 @@ This repository is used to customize Kali Linux to my preferred configuration an
 |ncat     | 2025.4 |Enhanced `nc`                |`apt install ncat`                          ||
 |rlwrap   | 2025.4 |readline wrapper             |`apt install rlwrap`                        ||
 |seclists | 2025.4 |Collection of Wordlists      |`apt install seclists`                      |[Project](https://github.com/danielmiessler/SecLists)|
+|peass-ng | 2025.4 |Privilege Escalation Awesome Scripts SUITE|`apt install peass`|[Project](https://github.com/peass-ng/PEASS-ng)|
 
 ## Local Copies of Common Tools/Utilities:
 
-### Privilege Escalation Awesome Scripts SUITE new generation (PEASS-ng)
+### PayloadAllTheThings
 Documentation: [https://swisskyrepo.github.io/PayloadsAllTheThings/](https://swisskyrepo.github.io/PayloadsAllTheThings/)  
 `git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git /usr/share/PayloadsAllTheThings/`
 
