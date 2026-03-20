@@ -38,6 +38,7 @@ This repository is used to customize Kali Linux to my preferred configuration an
 |enum4linux| 2025.4 |Enumerates info from Windows and Samba systems |`apt install enum4linux`                    |[Info](https://www.kali.org/tools/enum4linux/)             |
 |burpsuite | 2025.4 |Proxy for testing of Web Applications          |`apt install burpsuite`                     |[Info](https://portswigger.net/)                           |
 
+Many of the packages listed above are already included with Kali Linux.  However, on the off chance these packages are removed from futrure releases, the `kali-prep-YYYY.Q.sh` script will attempt to add them.
 
 ## Local Copies of Common Tools/Utilities:
 
@@ -66,6 +67,9 @@ sudo -u kali sed -i "s/^alias ll=.*/alias ll='ls -lah'/" /home/kali/.zshrc
 sudo -u kali sed -i "s/^alias ll=.*/alias ll='ls -lah'/" /home/kali/.bashrc
 ```
 
-## Considerations:
-impacket  
-
+### GEF (GDB Enhanced Features):
+Project: [https://github.com/hugsy/gef](https://github.com/hugsy/gef)
+```bash
+sudo -u kali wget -O ~/.gdbinit-gef.py -q https://gef.blah.cat/py
+sudo -u kali echo source ~/.gdbinit-gef.py >> ~/.gdbinit
+```
