@@ -109,6 +109,6 @@ sudo -u kali sed -i "s/^alias ll=.*/alias ll='ls -lah'/" /home/kali/.zshrc
 sudo -u kali sed -i "s/^alias ll=.*/alias ll='ls -lah'/" /home/kali/.bashrc
 
 echo "------> GEF (GDB Enhanced Features)..."
-sudo -u kali wget -O ~/.gdbinit-gef.py -q https://gef.blah.cat/py
-sudo -u kali echo source ~/.gdbinit-gef.py >> ~/.gdbinit
+sudo -u kali wget -O /home/kali/.gdbinit-gef.py -q https://gef.blah.cat/py
+sudo -u kali echo source /home/kali/.gdbinit-gef.py >> /home/kali/.gdbinit
 echo "Script Complete"
