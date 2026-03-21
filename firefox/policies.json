@@ -32,7 +32,7 @@
 			"Locked": false
 		},
 		"GenerativeAI": {
-			"Enabled": true
+			"Enabled": false
 		},
 		"Homepage": {
 			"URL": "file:///usr/share/kali-defaults/web/homepage.html",
