@@ -1,41 +1,66 @@
 {
-  "policies": {
-    "DisplayBookmarksToolbar": true,
-    "NoDefaultBookmarks": true,
-    "OverrideFirstRunPage": "",
-    "OverridePostUpdatePage": "",
-    "Homepage": {
-      "URL": "file:///usr/share/kali-defaults/web/homepage.html",
-      "Locked": false,
-      "StartPage": "homepage"
-    },
-    "DisableTelemetry": true,
-    "NetworkPrediction": false,
-    "DNSOverHTTPS": {
-      "Enabled": false
-    },
-    "CaptivePortal": false,
-    "FirefoxHome": {
-      "Search": true,
-      "TopSites": true,
-      "Highlights": false,
-      "Pocket": false,
-      "Snippets": false,
-      "Locked": false
-    },
-    "Bookmarks": [
-      {
-        "Title": "Google",
-        "URL": "https://www.google.com",
-        "Favicon": "https://www.google.com",
-        "Placement": "toolbar",
-        "Folder": "My Work Links"
-      },
-      {
-        "Title": "Mozilla Support",
-        "URL": "https://support.mozilla.org",
-        "Placement": "menu"
-      }
-    ]
-  }
+	"policies": {
+		"BlockAboutConfig": false,
+		"CaptivePortal": false,
+		"DisableAppUpdate": true,
+		"DisableFeedbackCommands": true,
+		"DisableFirefoxStudies": true,
+		"DisablePocket": true,
+		"DisableTelemetry": true,
+		"DisplayBookmarksToolbar": "always",
+		"DisplayMenuBar": "default-on",
+		"DNSOverHTTPS": {
+			"Enabled": false
+		},
+		"DontCheckDefaultBrowser": true,
+		"ExtensionSettings": {
+			"*": {
+				"installation_mode": "allowed"
+			},
+			"foxyproxy@eric.h.jung": {
+				"installation_mode": "normal_installed",
+				"install_url": "https://addons.mozilla.org/firefox/downloads/latest/foxyproxy-standard/latest.xpi",
+				"default_area": "navbar"
+			}
+		},
+		"FirefoxHome": {
+			"Search": true,
+			"TopSites": true,
+			"Highlights": false,
+			"Pocket": false,
+			"Snippets": false,
+			"Locked": false
+		},
+		"GenerativeAI": {
+			"Enabled": true
+		},
+		"Homepage": {
+			"URL": "file:///usr/share/kali-defaults/web/homepage.html",
+			"Locked": false,
+			"StartPage": "homepage"
+		},
+		"NetworkPrediction": false,
+		"NoDefaultBookmarks": true,
+		"OverrideFirstRunPage": "",
+		"OverridePostUpdatePage": "",
+		"Bookmarks": [
+			{
+				"Title": "CyberChef",
+				"URL": "file:///usr/lib/cyberchef/index.html",
+				"Placement": "toolbar"
+			},
+			{
+				"Title": "Google",
+				"URL": "https://www.google.com",
+				"Favicon": "https://www.google.com",
+				"Placement": "toolbar",
+				"Folder": "My Work Links/Test"
+			},
+			{
+				"Title": "Mozilla Support",
+				"URL": "https://support.mozilla.org",
+				"Placement": "menu"
+			}
+		]
+	}
 }
