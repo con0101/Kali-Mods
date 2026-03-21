@@ -15,6 +15,7 @@ if [[ $EUID -ne 0 ]]; then
    echo "ERROR: This script must be run as root. Please use sudo or login as root." 
    exit 1
 fi
+apt update
 
 echo "------> CyberChef:"
 apt install -y cyberchef
