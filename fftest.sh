@@ -15,10 +15,10 @@ if [[ $EUID -ne 0 ]]; then
    echo "ERROR: This script must be run as root. Please use sudo or login as root." 
    exit 1
 fi
-apt update
+#apt update
 
-echo "------> CyberChef:"
-apt install -y cyberchef
+#echo "------> CyberChef:"
+#apt install -y cyberchef
 
 echo "------> VIM Settings..."
 sudo -u kali rm -f /home/kali/.vimrc
