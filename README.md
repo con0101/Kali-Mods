@@ -2,6 +2,14 @@
 
 This repository is used to customize Kali Linux to my preferred configuration and standards.
 
+
+
+
+
+
+
+
+
 ## General Packages:
 
 |Package:  |Script: |Description:                                   |Install/Upgrade:                            |Links:                                                     |
@@ -73,3 +81,11 @@ Project: [https://github.com/hugsy/gef](https://github.com/hugsy/gef)
 sudo -u kali wget -O /home/kali/.gdbinit-gef.py -q https://gef.blah.cat/py
 sudo -u kali echo source /home/kali/.gdbinit-gef.py >> /home/kali/.gdbinit
 ```
+
+## Firefox:
+
+### Default Settings:
+
+### BurpSuite Certificate Import & FoxyProxy:
+
+### Bookmarks:
